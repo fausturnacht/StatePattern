@@ -28,7 +28,6 @@ public class AccountTest {
 		//Suspend the account
 		myAccount.suspend(); // Displays " You cannot suspend a closed account!"
 
-
 		//Withdraw to the account
 		myAccount.withdraw(500.0);// Show message "You cannot withdraw on a closed                   account!". Call the toString() to show current balance and account number.
 
